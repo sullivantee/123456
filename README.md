@@ -9,4 +9,4 @@ Part 2 of the presentation is just to add on some infomation that i missed out i
 
 if you have any trouble with the file please contact me via email.
 
-teefuzhen5245@e.djzhlc.edu.my
+teefuzhen@gmail.com
