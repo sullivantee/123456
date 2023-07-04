@@ -1,0 +1,62 @@
+.homeStudent-label{
+    display: inline-block;
+    margin: 20px;
+    font-size: 32px;
+}
+
+.homeStudent-main{
+    .homeStudent-span{
+        display:inline-block;
+        width: auto;
+        height: auto;
+        margin-left: 20px;
+        .homeStudent-labels-secondary{
+            display: inline-block;
+            .homeStudent-ID-NAME-label{
+                font-weight: bold;
+                font-size: 20px;
+                color: #086972;
+            }
+        
+            .homeStudent-ID-NAME-label-bold{
+                font-weight: bold;
+                font-size: 20px;
+                color: #17b978;
+            }
+        }
+    }
+
+    .dataTables_wrapper {
+        font-family: Nunito, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        padding: 0px 20px;
+
+        .dataTables_scroll{
+            border-radius: 1em;
+            overflow: hidden;
+        }
+
+        .dataTables_filter{
+            margin-right: 10px;
+        }
+
+        .table{
+
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+    
+            th{
+                border: 1px solid #dddddd;
+                background-color: #a7ff83;
+                text-align: left;
+            }
+    
+            td{
+                border: 1px solid #dddddd;
+                text-align: left;
+            }
+        }
+    }
+}

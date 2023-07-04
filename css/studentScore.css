@@ -1,0 +1,100 @@
+.studentScore-label {
+  display: inline-block;
+  margin: 20px;
+  font-size: 32px;
+}
+
+.studentScore-error {
+  margin: 0px;
+  text-align: right;
+  color: red;
+  font-size: 20px;
+}
+
+.studentScore-success {
+  margin: 0px;
+  text-align: right;
+  color: #17b978;
+  font-size: 20px;
+}
+
+.studentScore-main .studentScore-ID-NAME-label {
+  font-weight: bold;
+  font-size: 20px;
+  color: #086972;
+}
+
+.studentScore-main .studentScore-ID-NAME-label-bold {
+  font-weight: bold;
+  font-size: 20px;
+  color: #17b978;
+}
+
+.studentScore-main .back-btn {
+  float: right;
+  background-color: #21e6c1;
+  color: #071e3d;
+  margin: 20px;
+  padding: 10px 40px;
+  border-radius: 34px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.studentScore-main form {
+  margin-left: 20px;
+}
+
+.studentScore-main form label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.studentScore-main form .btn button {
+  display: inline-block;
+  background-color: #278EA5;
+  width: 75px;
+  padding: 5px;
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.studentScore-main form .btn button:hover {
+  background-color: #2ca0ba;
+  cursor: pointer;
+}
+
+.studentScore-main .dataTables_wrapper {
+  font-family: Nunito, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+.studentScore-main .dataTables_wrapper .dataTables_scroll {
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.studentScore-main .dataTables_wrapper .dataTables_filter {
+  margin-right: 10px;
+}
+
+.studentScore-main .dataTables_wrapper .table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.studentScore-main .dataTables_wrapper .table th {
+  border: 1px solid #dddddd;
+  background-color: #a7ff83;
+  text-align: left;
+}
+
+.studentScore-main .dataTables_wrapper .table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+/*# sourceMappingURL=studentScore.css.map */

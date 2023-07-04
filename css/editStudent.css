@@ -1,0 +1,130 @@
+.editStudent-label {
+  display: inline-block;
+  margin: 20px 20px 20px 0px;
+  font-size: 32px;
+}
+
+.editStudent-error {
+  margin: 30px 20px 0px 20px;
+  text-align: right;
+  float: right;
+  color: red;
+  font-size: 20px;
+}
+
+.editStudent-success {
+  margin: 30px 20px 0px 20px;
+  text-align: right;
+  float: right;
+  color: #17b978;
+  font-size: 20px;
+}
+
+.editStudent-main {
+  color: black;
+  margin: 0px 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.editStudent-main .editStudent-ID-NAME-label {
+  font-weight: bold;
+  font-size: 20px;
+  color: #086972;
+}
+
+.editStudent-main .editStudent-ID-NAME-label-bold {
+  font-weight: bold;
+  font-size: 20px;
+  color: #17b978;
+}
+
+.editStudent-main form {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.editStudent-main form label {
+  font-size: 20px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 110px;
+}
+
+.editStudent-main form input[type=text], .editStudent-main form input[type=password] {
+  width: 210px;
+  height: 28px;
+  margin: 5px 0px;
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+.editStudent-main form .div-edit-pwd {
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 115px;
+  height: auto;
+}
+
+.editStudent-main form .div-edit-pwd input[type=checkbox] {
+  width: 24px;
+  height: 24px;
+  margin: 5px 0px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.editStudent-main form .div-edit-pwd label {
+  margin: 5px 5px;
+  width: auto;
+  height: auto;
+  font-size: 21px;
+  vertical-align: middle;
+}
+
+.editStudent-main form .btn {
+  padding: 15px 0px 0px 0px;
+  float: right;
+}
+
+.editStudent-main form .btn button {
+  display: inline-block;
+  background-color: #278EA5;
+  width: 210px;
+  height: 48px;
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.editStudent-main form .btn button:hover {
+  background-color: #2ca0ba;
+  cursor: pointer;
+}
+
+.editStudent-main form .btn .cxlEditStudent-btn {
+  float: right;
+  background-color: #21e6c1;
+  color: #071e3d;
+  width: 210px;
+  height: 48px;
+  margin-top: 15px;
+  padding: 10px 15px;
+  border-radius: 34px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.editStudent-main form .btn .cxlEditStudent-btn:hover {
+  background-color: #38e9c7;
+  color: #071e3d;
+  text-decoration: none;
+}
+/*# sourceMappingURL=editStudent.css.map */

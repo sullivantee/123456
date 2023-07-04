@@ -1,0 +1,117 @@
+.manageUser-label{
+    display: inline-block;
+    margin: 20px;
+    font-size: 32px;
+}
+
+.manageUser-error{
+    margin: 30px 70px 0px 20px;
+    text-align: right;
+    float: right;
+    color: red;
+    font-size: 20px;
+}
+
+.manageUser-success{
+    margin: 30px 70px 0px 20px;
+    text-align: right;
+    float: right;
+    color: #17b978;
+    font-size: 20px;
+}
+
+.manageUser-main{
+    display: flex;
+    height: 450px;
+
+    hr{
+        height: auto;
+        border: 1px solid #086972;
+        border-radius: 5px;
+    }
+
+    .forms{
+        color: black;
+        margin: 0px 20px;
+        width: 350px;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+
+        hr{
+            width: 160px;
+            margin-left: 80px;
+            margin-bottom: 8px;
+            border: 1px solid #086972;
+            border-radius: 5px;
+        }
+
+        .title{
+            font-size: 24px;
+        }
+
+        input[type=text], input[type=password]{
+            width: 210px;
+            height: 28px;
+            margin: 5px 0px;
+            font-size: 16px;
+            padding-left: 5px;
+        }
+
+        input[type=checkbox]{
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            margin: 5px 0px;
+            font-size: 16px;
+            vertical-align: middle;
+        }
+
+        select{
+            width: 210px;
+            height: 28px;
+            margin: 5px 0px;
+            font-size: 16px;
+            padding-left: 5px;
+            font-family: Nunito, sans-serif;
+        }
+
+        .div-pwd{
+            height: 50px;
+            display: inline-block;
+            vertical-align: middle;
+
+            label{
+                margin-left: 5px;
+            }
+        }
+
+        label{
+            display: inline;
+            font-size: 20px;
+            margin: 10px 0px;
+            vertical-align: middle;
+        }
+
+        .btn{
+            text-align: center;
+            padding-top: 15px;
+            button{
+                display: inline-block;
+                background-color: #278EA5;
+                width: 191px;
+                height: 48px;
+                border-radius: 34px;
+                border: none;
+                color: white;
+                font-size: 14px;
+                font-family: 'Nunito', sans-serif;
+            }
+    
+            button:hover{
+                background-color: lighten($color: #278EA5, $amount: 5);
+                cursor: pointer;
+            }
+        }
+    }
+}

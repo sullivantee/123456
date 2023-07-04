@@ -1,0 +1,118 @@
+.editStudentScore-label {
+  display: inline-block;
+  margin: 20px 20px 20px 0px;
+  font-size: 32px;
+}
+
+.editStudentScore-error {
+  margin: 0px 20px 0px 20px;
+  text-align: right;
+  float: right;
+  color: red;
+  font-size: 20px;
+}
+
+.editStudentScore-success {
+  margin: 0px 20px 0px 20px;
+  text-align: right;
+  float: right;
+  color: #17b978;
+  font-size: 20px;
+}
+
+.editStudentScore-main {
+  color: black;
+  margin: 0px 20px;
+}
+
+.editStudentScore-main .editStudentScore-ID-NAME-label {
+  font-weight: bold;
+  font-size: 20px;
+  color: #086972;
+}
+
+.editStudentScore-main .editStudentScore-ID-NAME-label-bold {
+  font-weight: bold;
+  font-size: 20px;
+  color: #17b978;
+}
+
+.editStudentScore-main .back-btn {
+  float: right;
+  background-color: #21e6c1;
+  color: #071e3d;
+  margin: 20px;
+  padding: 10px 40px;
+  border-radius: 34px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.editStudentScore-main form {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.editStudentScore-main form .Score-label {
+  font-size: 20px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+}
+
+.editStudentScore-main form input {
+  width: 70px;
+  height: 28px;
+  margin: 5px 0px;
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+.editStudentScore-main form .grade {
+  cursor: default;
+}
+
+.editStudentScore-main form .btn {
+  padding: 15px 0px 0px 0px;
+  float: none;
+}
+
+.editStudentScore-main form .btn button {
+  display: inline-block;
+  background-color: #278EA5;
+  width: 210px;
+  height: 48px;
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.editStudentScore-main form .btn button:hover {
+  background-color: #2ca0ba;
+  cursor: pointer;
+}
+
+.editStudentScore-main form .btn .cxlEditStudentScore-btn {
+  float: right;
+  background-color: #21e6c1;
+  color: #071e3d;
+  width: 210px;
+  height: 48px;
+  margin-top: 15px;
+  padding: 10px 15px;
+  border-radius: 34px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.editStudentScore-main form .btn .cxlEditStudentScore-btn:hover {
+  background-color: #38e9c7;
+  color: #071e3d;
+  text-decoration: none;
+}
+/*# sourceMappingURL=editStudentScore.css.map */

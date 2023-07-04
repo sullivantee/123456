@@ -1,0 +1,96 @@
+.addCourse-label {
+  display: inline-block;
+  margin: 20px;
+  font-size: 32px;
+}
+
+.addCourse-error {
+  margin: 30px 70px 0px 20px;
+  text-align: right;
+  float: right;
+  color: red;
+  font-size: 20px;
+}
+
+.addCourse-success {
+  margin: 30px 70px 0px 20px;
+  text-align: right;
+  float: right;
+  color: #17b978;
+  font-size: 20px;
+}
+
+.addCourse-main {
+  color: black;
+  margin: 0px 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.addCourse-main label {
+  font-size: 20px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 130px;
+}
+
+.addCourse-main input {
+  width: 210px;
+  height: 28px;
+  margin: 5px 0px;
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+.addCourse-main select {
+  width: 210px;
+  height: 28px;
+  margin: 5px 0px;
+  font-size: 16px;
+  padding-left: 5px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.addCourse-main .btn {
+  padding: 15px 0px 0px 0px;
+  float: right;
+}
+
+.addCourse-main .btn button {
+  display: inline-block;
+  background-color: #278EA5;
+  width: 210px;
+  height: 48px;
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.addCourse-main .btn button:hover {
+  background-color: #2ca0ba;
+  cursor: pointer;
+}
+
+.addCourse-main .btn .cxlAddCourse-btn {
+  float: right;
+  background-color: #21e6c1;
+  color: #071e3d;
+  width: 210px;
+  height: 48px;
+  margin-top: 15px;
+  padding: 10px 15px;
+  border-radius: 34px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.addCourse-main .btn .cxlAddCourse-btn:hover {
+  background-color: #38e9c7;
+  color: #071e3d;
+  text-decoration: none;
+}
+/*# sourceMappingURL=addCourse.css.map */

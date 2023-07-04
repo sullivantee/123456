@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+body {
+  background-color: #17B978;
+  background-image: url("../img/Bg-01.svg");
+  background-size: cover;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+.logo {
+  margin: 50px;
+  position: static;
+  width: 240px;
+  height: 80px;
+}
+
+.alert {
+  text-align: right;
+  float: right;
+  color: red;
+}
+
+.container {
+  width: 375px;
+  height: 300px;
+  background-color: #A7FF83;
+  -webkit-box-shadow: 0px 0px 15px black;
+          box-shadow: 0px 0px 15px black;
+  border-radius: 40px;
+}
+
+.container .inner {
+  margin: 30px 28px 25px 28px;
+}
+
+.container .inner .header {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #086972;
+  padding: 0px 0px;
+}
+
+.container .inner .user, .container .inner .password {
+  position: relative;
+  width: 100px;
+  height: 75px;
+}
+
+.container .inner .user label, .container .inner .password label {
+  display: inline-block;
+  padding: 8px 0px 0px 0px;
+  color: #086972;
+}
+
+.container .inner .user input, .container .inner .password input {
+  margin: 0px;
+  padding-left: 45px;
+  width: 272px;
+  height: 35px;
+  border: 2px solid #086972;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+}
+
+.container .inner img {
+  width: 32px;
+  height: 44px;
+  position: absolute;
+  left: 0px;
+  padding: 12px 3px;
+  pointer-events: none;
+  top: 1rem;
+  -webkit-filter: invert(30%) sepia(31%) saturate(2865%) hue-rotate(153deg) brightness(86%) contrast(94%);
+          filter: invert(30%) sepia(31%) saturate(2865%) hue-rotate(153deg) brightness(86%) contrast(94%);
+}
+
+.container .inner .btn {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.container .inner .btn button {
+  display: inline-block;
+  background-color: #278EA5;
+  width: 191px;
+  height: 48px;
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.container .inner .btn button:hover {
+  background-color: #086972;
+  cursor: pointer;
+}
+/*# sourceMappingURL=login.css.map */

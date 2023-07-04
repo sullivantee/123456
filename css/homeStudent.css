@@ -1,0 +1,60 @@
+.homeStudent-label {
+  display: inline-block;
+  margin: 20px;
+  font-size: 32px;
+}
+
+.homeStudent-main .homeStudent-span {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin-left: 20px;
+}
+
+.homeStudent-main .homeStudent-span .homeStudent-labels-secondary {
+  display: inline-block;
+}
+
+.homeStudent-main .homeStudent-span .homeStudent-labels-secondary .homeStudent-ID-NAME-label {
+  font-weight: bold;
+  font-size: 20px;
+  color: #086972;
+}
+
+.homeStudent-main .homeStudent-span .homeStudent-labels-secondary .homeStudent-ID-NAME-label-bold {
+  font-weight: bold;
+  font-size: 20px;
+  color: #17b978;
+}
+
+.homeStudent-main .dataTables_wrapper {
+  font-family: Nunito, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+.homeStudent-main .dataTables_wrapper .dataTables_scroll {
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.homeStudent-main .dataTables_wrapper .dataTables_filter {
+  margin-right: 10px;
+}
+
+.homeStudent-main .dataTables_wrapper .table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.homeStudent-main .dataTables_wrapper .table th {
+  border: 1px solid #dddddd;
+  background-color: #a7ff83;
+  text-align: left;
+}
+
+.homeStudent-main .dataTables_wrapper .table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+/*# sourceMappingURL=homeStudent.css.map */

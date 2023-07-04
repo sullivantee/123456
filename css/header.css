@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+body {
+  margin: 0;
+  font-family: Nunito, sans-serif;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(13%, #086972), color-stop(13%, #e6e6e6));
+  background: linear-gradient(#086972 13%, #e6e6e6 13%);
+  height: 100vh;
+}
+
+.logo {
+  width: 194px;
+  height: 54px;
+  margin: 15px 0px 15px 15px;
+  display: block;
+}
+
+hr {
+  border-color: white;
+  margin: 0;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 230px;
+  background-color: #17b978;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  -webkit-box-shadow: 1px 0px 50px grey;
+          box-shadow: 1px 0px 50px grey;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.sidebar a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  border-radius: 35px;
+  margin: 15px;
+  padding: 12px;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar a img {
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  -webkit-filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(194deg) brightness(105%) contrast(103%);
+          filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(194deg) brightness(105%) contrast(103%);
+}
+
+.sidebar a span {
+  margin-left: 20px;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+.sidebar a.active {
+  background-color: white;
+  color: #17b978;
+}
+
+.sidebar a.active img {
+  -webkit-filter: invert(56%) sepia(16%) saturate(4793%) hue-rotate(116deg) brightness(95%) contrast(82%);
+          filter: invert(56%) sepia(16%) saturate(4793%) hue-rotate(116deg) brightness(95%) contrast(82%);
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #1ad087;
+  color: white;
+}
+
+main {
+  height: 657px;
+}
+
+main .content {
+  display: inline-block;
+  margin: 25px 25px 25px 250px;
+  width: 166vh;
+  height: 93vh;
+  border-radius: 15px;
+  background-color: white;
+}
+/*# sourceMappingURL=header.css.map */

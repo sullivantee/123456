@@ -1,0 +1,123 @@
+.editTeacher-label{
+    display: inline-block;
+    margin: 20px 20px 20px 0px;
+    font-size: 32px;
+}
+
+.editTeacher-error{
+    margin: 30px 20px 0px 20px;
+    text-align: right;
+    float: right;
+    color: red;
+    font-size: 20px;
+}
+
+.editTeacher-success{
+    margin: 30px 20px 0px 20px;
+    text-align: right;
+    float: right;
+    color: #17b978;
+    font-size: 20px;
+}
+
+.editTeacher-main{
+    color: black;
+    margin: 0px 20px;
+    width: fit-content;
+
+    .editTeacher-ID-NAME-label{
+        font-weight: bold;
+        font-size: 20px;
+        color: #086972;
+    }
+
+    .editTeacher-ID-NAME-label-bold{
+        font-weight: bold;
+        font-size: 20px;
+        color: #17b978;
+    }
+    
+    form{
+        width: fit-content;
+        label{
+            font-size: 20px;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            width: 110px;
+        }
+
+        input[type=text], input[type=password]{
+            width: 210px;
+            height: 28px;
+            margin: 5px 0px;
+            font-size: 16px;
+            padding-left: 5px;
+        }
+        
+        .div-edit-pwd{
+            display: inline-block;
+            align-items: center;
+            margin-left: 115px;
+            height: auto;
+
+            input[type=checkbox]{
+                width: 24px;
+                height: 24px;
+                margin: 5px 0px;
+                font-size: 16px;
+                vertical-align: middle;
+            }
+
+            label{
+                margin: 5px 5px;
+                width: auto;
+                height: auto;
+                font-size: 21px;
+                vertical-align: middle;
+            }
+        }
+        
+
+        .btn{
+            padding: 15px 0px 0px 0px;
+            float: right;
+            
+            button{
+                display: inline-block;
+                background-color: #278EA5;
+                width: 210px;
+                height: 48px;
+                border-radius: 34px;
+                border: none;
+                color: white;
+                font-family: 'Nunito', sans-serif;
+            }
+
+            button:hover{
+                background-color: lighten($color: #278EA5, $amount: 5);
+                cursor: pointer;
+            }
+
+            .cxlEditTeacher-btn{
+                float: right;
+                background-color: #21e6c1;
+                color: #071e3d;
+                width: 210px;
+                height: 48px;
+                margin-top: 15px;
+                padding: 10px 15px;
+                border-radius: 34px;
+                text-decoration: none;
+                text-align: center;
+                vertical-align: middle;
+            }
+            
+            .cxlEditTeacher-btn:hover {
+                background-color: lighten($color: #21e6c1, $amount: 5);
+                color: #071e3d;
+                text-decoration: none;
+            }
+        }
+    }
+}

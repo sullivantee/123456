@@ -1,0 +1,74 @@
+.courseSubject-label {
+  display: inline-block;
+  margin: 20px;
+  font-size: 32px;
+}
+
+.courseSubject-delete {
+  margin: 30px 0px 0px 20px;
+  text-align: right;
+  float: right;
+  color: #17b978;
+  font-size: 20px;
+}
+
+.courseSubject-main .addCourseSubject-btn {
+  float: right;
+  background-color: #278EA5;
+  color: white;
+  border-radius: 25px;
+  margin: 20px 0px 20px 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.courseSubject-main .addCourseSubject-btn:hover {
+  background-color: #2ca0ba;
+  color: white;
+  text-decoration: none;
+}
+
+.courseSubject-main .back-btn {
+  float: right;
+  background-color: #21e6c1;
+  color: #071e3d;
+  margin: 20px;
+  padding: 10px 40px;
+  border-radius: 34px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.courseSubject-main .dataTables_wrapper {
+  font-family: Nunito, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+.courseSubject-main .dataTables_wrapper .dataTables_scroll {
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.courseSubject-main .dataTables_wrapper .dataTables_filter {
+  margin-right: 10px;
+}
+
+.courseSubject-main .dataTables_wrapper .table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.courseSubject-main .dataTables_wrapper .table th {
+  border: 1px solid #dddddd;
+  background-color: #a7ff83;
+  text-align: left;
+}
+
+.courseSubject-main .dataTables_wrapper .table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+/*# sourceMappingURL=courseSubject.css.map */
